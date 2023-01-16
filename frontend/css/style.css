@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+}
+
+body {
+  background-color: #0099FF;
+}
+
+main {
+  background-color: #FFF;
+  border-radius: 8px;
+  padding: 20px;
+  width: 90%;
+  margin: 40px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-form {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 15px;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #DDD;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+button[type="submit"] {
+  background-color: #0099FF;
+  height: 50px;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 1.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  padding: 10px 15px;
+  border: 1px solid #DDD;
+  text-align: center;
+}
+
+td {
+  color: #333;
+  font-weight: 600;
+}
+
+tr:nth-child(even){
+  background-color: #F5F5F5;
+}
+
+select {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background-color: #ebebeb;
+}
+
+select:hover {
+  background-color: #DDD;
+}
+
+.btn-action {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  color: #FFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btn-action:nth-child(1) {
+  background-color: orange;
+  margin-right: 5px;
+}
+
+.btn-action:nth-child(2) {
+  background-color: rgba(237, 42, 42, 0.9);
+}
